@@ -1,0 +1,46 @@
+form {
+  text-align: center;
+}
+
+h1 {
+  color: hsl(100,200,300);
+  text-decoration: underline dotted;
+}
+
+p, 
+ul {
+  border: 2px black;
+  padding-top: .1ex;
+  padding-left: .1rem;
+  padding-right: .1px;
+  padding-bot: .1px;
+  position: static;
+}
+
+.block,
+/* for ordered lists*/
+li {
+  border: 2px solid black;
+  padding: .5em .2px 1mm .4px;
+}
+
+#huh {
+    color: hotpink;
+}
+
+label, h2 {
+    color: grey;
+}
+
+ul {
+  display: inline;
+  list-style: none;
+}
+
+* {
+    text-decoration: none;
+}
+
+.block {
+  display: block;
+}  
